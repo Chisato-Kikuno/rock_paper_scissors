@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>じゃんけんゲーム</title>
+  <!-- 検索エンジンにインデックスさせない設定 -->
+  <meta name="robots" content="noindex, nofollow" >
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>じゃんけんゲーム</h1>
+    <img src="images/じゃんけん.PNG" id="images" alt="じゃんけん">
+    <p>最初はグー、じゃんけん、</p>
+    <div class="choice">
+      <button id="rock"><img src="images/グー.PNG" alt="グー"></button>
+      <button id="scissors"><img src="images/チョキ.PNG" alt="チョキ"></button>
+      <button id="paper"><img src="images/パー.PNG" alt="パー"></button>
+    </div>
+    <p id="yourChoice"></p>
+    <img src=" " id="resultImg" alt="結果" style="display: none;">
+    <p id="retry" style="display: none;"></p>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
