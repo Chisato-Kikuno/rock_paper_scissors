@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+}
+
+.container {
+  min-height: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+h1 {
+  margin: 10px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+img {
+  width: 100px;
+}
+
+.choice {
+  margin: 10px;
+}
+
+button {
+  margin: 0 10px;
+}
+
+#rock img, #scissors img, #paper img {
+  height: 120px;
+  width: 120px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+@media (max-width: 576px) {
+  #rock img, #scissors img, #paper img {
+  height: 60px;
+  width: 60px;
+}
+}
